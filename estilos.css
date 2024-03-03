@@ -5,14 +5,16 @@
     box-sizing: border-box;
  }
 
-
+/*
 .seccion1{
-    background-image: url("/Cabraca portfolio/img/naturaleza.jpg");
+    background-image: url("/img/naturaleza.jpg");
     background-attachment: fixed;
     background-size: cover;
-   width: auto;
+    width: auto;
     height: 830px;
 }
+
+
 
 .foto{
     padding: 0;
@@ -26,12 +28,12 @@
     margin-bottom: 50px;
 }
 
+*/
 
 
 
 
-
-.nameinitial{
+/*.nameinitial{
     color: #e5a00d;
     position: relative;
     padding-left: 600px;
@@ -51,24 +53,24 @@ color: #52c352;
 
 }
 #botonn{
-    color: rgb(255, 187, 0);
+    color: #ffbb00;
     text-decoration: none; 
     
     
 }
-
+*/
 
 
                             /**  PARTE 2 **/
     
 
 #focus{
-    background-image: url("/Cabraca portfolio/img/noche.jpg");
+    background-image: url("/img/noche.jpg");
     background-size: cover;
     background-attachment: fixed;
     width: auto;
     height: 820px;
-    color: #e5a00d;
+    
     font-size: 30px;
 }
     
@@ -83,28 +85,33 @@ color: #52c352;
 nav{
    
     text-align: center;
+     
+     height: 80px;
+    background-color:#d9d9d965 ;   
+
   }
 
   nav ul{
      list-style: none;
      display: inline-block;
-     padding:18px;
+     padding:5px;
   }
   nav ul li{
     float: left;
     margin-top: 20px;
 }
 
+
 nav ul li a {
-    color: #e5a00d;
-    font-weight: bold;
+    
+    color: #000000;    
     text-decoration: none;
     font-size: 20px;
     padding: 18px;
 }
 
 nav ul li a:hover{
-  background-color: #60666e;
+  background-color: #e5a00d;
 }
 
 
@@ -113,7 +120,7 @@ nav ul li a:hover{
 
 /**  parte de proyectos **/
 .fondo{
-    background-image: url("/Cabraca portfolio/img/neblina.jpg");
+    background-image: url("/img/neblina.jpg");
     background-size: cover;
     background-attachment: fixed;
     width: auto;
@@ -124,57 +131,68 @@ nav ul li a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-     gap: 55px;
-     width: 1450px;
-     height: 800px;
+     gap: 25px;
+     width: 100%;
+     height: 500px;
      padding-top: 20px;
+    
 }
 
 
 
 .caja3 >a > img{
-    width:300px;
-    height: 300px;
+    width:250px;
+    height: 250px;
+     box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .caja6 >a > img{
     /* background-size: cover;
     background-attachment: fixed; */
-    width:300px;
-    height: 300px;
+    width:250px;
+    height: 250px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .caja7 > a > img{
-    width:300px;
-    height: 300px;
+    width:250px;
+    height: 250px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .caja9 > a > img{
-     width: 300px;
-    height: 300px;
+     width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .caja11> a > img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
+.butt{
+    text-align: center;
+    background-color: #dbe2e2a5;
+    margin-right: 35px;
+}
 
 .caja2 > h2{
-    font-size: 30px;
+    font-size: 10px;
 }
 .caja4 > h3{
-    font-size: 30px;
+    font-size: 10px;
 }
 .caja5 > h4{
-    font-size: 30px;
+    font-size: 10px;
 }
 
 .caja8 > h4{
-    font-size: 30px;
+    font-size: 10px;
 }
 .caja10 > h4{
-    font-size: 30px;
+    font-size: 10px;
 }
 
-.caja2 >h2:hover{
+/*.caja2 >h2:hover{
     background-color: #000000;
     width: 100%;
     color: aliceblue;
@@ -198,7 +216,7 @@ nav ul li a:hover{
     background-color: #000000;
     width: 100%;
     color: aliceblue;
-}
+} */
 
 
 #parrafo{
@@ -211,7 +229,7 @@ nav ul li a:hover{
     /*background-color: #55f291;*/
     font-family: Arial;
     font-size: 38px;
-    color: #e5a00d;;
+    color: #e5a00d;
     line-height: 1.4em;
     height: 1.4em;
     padding: 0 14px 0 7px;
@@ -321,7 +339,7 @@ color: white;
     position: absolute;
     bottom: -15px;
     right: -20px;
-    background:linear-gradient(to left, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background:linear-gradient(to left, #e8eaec, #4b88ab, #008793, #00bf72, #a8eb12);
     color: rgb(4, 4, 4);
     width: 320px;
     padding: 10px 4px 10px 0;
@@ -336,7 +354,7 @@ color: white;
 
 
 .seccion2{
-background-image: url("/Cabraca portfolio/img/nochees.jpg");
+background-image: url("/img/nochees.jpg");
     background-attachment: fixed;
     background-size: cover;
    width: auto;
@@ -352,6 +370,11 @@ a >.fab{
 a >.fa-whatsapp{
     color: rgb(20, 182, 20);
 }
+.fa-envelope{
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+
+}
 
 .cv1{
    margin-right: 650px;
@@ -360,3 +383,5 @@ a >.fa-whatsapp{
     font-size: 25px;
     /*background-color: #000;*/
 }
+
+
