@@ -1,23 +1,21 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- 
- body{
-    max-width: 1480px;
- }
-
-
-.seccion1{
-    background-image: url("/img/naturaleza.jpg");
-                        background-attachment: fixed;
-                        background-size: cover;
-                        width: 1440px;
-                        height: 820px;
 }
 
+body {
+    max-width: 1480px;
+}
+
+
+.seccion1 {
+    background-image: url("/img/naturaleza.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1440px;
+    height: 820px;
+}
 
 /*
 .foto{
@@ -34,42 +32,90 @@
 
 */
 
-
-
-
-#nameinitial{
-            color:#e5a00d;
-            position:relative;                   margin-left:40%;
-            margin-top:30px;
-            font-family:"rig-shaded-zero-extrude", sans-serif;
-            font-size: 20px;
-   
-}
-
-.boton{
+#nameinitial {
+    color: #ad7c11;
     position: relative;
-    margin-left: 48%;
-     height: 55px;
-    border-color: #e5a00d;
-    font-family:"rig-shaded-zero-extrude", sans-serif ;
+    margin-left: 36%;
+    margin-top: 30px;
+    font-family: "rubik Mono One", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.contenedor-redes {
+    background-color: rgba(16, 10, 1, 0.254);
+    height: 5px;
+    width: 400px;
+    padding: 50px;
+    position: relative;
+    margin-left: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor-redes>a {
+    margin: 20px;
+    padding: 35px;
+    border-radius: 20%;
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 2rem;
+    color: #000;
+    background-color: #ffffff08;
+}
+
+.contenedor-redes>a:hover {
+    background-color: #f7f3f3ab;
+    width: 15px;
+    height: 50px;
+
+    .fa-facebook {
+        color: #234692;
+    }
+
+    .fa-linkedin {
+        color: #0e76a8;
+    }
+
+    .fa-github {
+        color: #000;
+    }
+
+    .fa-tiktok {
+        color: #cb8989;
+    }
+}
+
+
+#botonnn {
+    display: flex;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    color: #daa32e;
+    font-family: "rubik Mono One", sans-serif;
+    font-size: 20px;
     margin-top: 20px;
-}
-.boton:hover{
-color: #52c352;
-
-}
-#botonn{
-    color: #ffbb00;
-    text-decoration: none; 
-    
-    
+    gap: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 47%;
 }
 
 
-                            /**  PARTE 2 **/
-    
+    /**  PARTE 2 **/
 
-#focus{
+#focus {
     background-image: url("/img/noche.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -77,6 +123,7 @@ color: #52c352;
     height: 850px;
     font-size: 30px;
 }
+
 /* @media screen and (max-width: 700px) {
     #focus{
       width: 100%; 
@@ -86,7 +133,7 @@ color: #52c352;
     }
   } */
 
-.quien{
+.quien {
     color: #e5a00d;
     position: relative;
     margin-left: 565px;
@@ -102,34 +149,35 @@ color: #52c352;
     }
   } */
 
-nav{
+nav {
     text-align: center;
-     max-width: 1500px;
-     height: 80px;
-     background-color:#d9d9d965 ;   
-  }
+    max-width: 1500px;
+    height: 80px;
+    background-color: #d9d9d965;
+}
 
-  nav ul{
-     list-style: none;
-     display: inline-block;
-     padding:5px;
-  }
-  nav ul li{
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+nav ul li {
     float: left;
     margin-top: 20px;
 }
 
 
 nav ul li a {
-    
-    color: #000000;    
+
+    color: #000000;
     text-decoration: none;
     font-size: 20px;
     padding: 18px;
 }
 
-nav ul li a:hover{
-  background-color: #e5a00d;
+nav ul li a:hover {
+    background-color: #e5a00d;
 }
 
 
@@ -138,13 +186,11 @@ nav ul li a:hover{
 
 
 
-#parrafo{
+#parrafo {
     margin: 150px;
-    font-size: 35px;  
- }
-
-
- .word { 
+    font-size: 35px;
+}
+.word {
     /*background-color: #55f291;*/
     font-family: Arial;
     font-size: 38px;
@@ -156,10 +202,9 @@ nav ul li a:hover{
     vertical-align: middle;
     position: relative;
     margin-top: 80px;
-    
-  }
-  
-  .word:before {
+}
+
+.word:before {
     content: '';
     background-color: black;
     width: 1px;
@@ -167,38 +212,35 @@ nav ul li a:hover{
     top: 5px;
     bottom: 5px;
     right: 7px;
-  }
-
+}
 
 /* TITULO en transicion*/
-  marquee{
+marquee {
     color: #e5a00d;
     font-size: 30px;
-  }
-  marquee:hover{
+}
+
+marquee:hover {
     background-color: #60666e;
-  }
+}
 
-
-
-  /*Contacto*/
-.contact{
+/*Contacto*/
+.contact {
     margin-left: 600px;
     font-size: 30px;
 }
-@media(max-width:768px){
-    .contact{
+
+@media(max-width:768px) {
+    .contact {
         margin-left: 40px;
     }
 }
-
-
-.form{
+.form {
     width: 340px;
     height: 485px;
     background: white;
     border-radius: 8px;
-    box-shadow: 0 0 40px  -10px #000;
+    box-shadow: 0 0 40px -10px #000;
     margin: calc(44vh - 220px) auto;
     padding: 20px 30px;
     max-width: calc(100vw -40px);
@@ -206,15 +248,14 @@ nav ul li a:hover{
     font-family: "montserrat", sans-serif;
     position: relative;
 }
-.raya{
-margin: 10px 0;
-padding-bottom: 10px;
-width: 180px;
-color: grey;
-border-bottom: 3px  solid black ;
+.raya {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: grey;
+    border-bottom: 3px solid black;
 }
-
-input{
+input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
@@ -225,21 +266,18 @@ input{
     font-family: "montserrat", sans-serif;
     border-bottom: 2px solid grey;
 }
-
-input:focus{
+input:focus {
     border-bottom: 2px solid lightblue;
 }
-
-#p:before{
-    content:attr(type);
+#p:before {
+    content: attr(type);
     display: block;
-     margin: 28px 0 0; 
+    margin: 28px 0 0;
     font-size: 14px;
     color: gray;
 }
-
-button{
-    float:right ;
+button {
+    float: right;
     padding: 8px 12px;
     margin: 5px 0 0;
     font-family: "montserrat", sans-serif;
@@ -250,65 +288,57 @@ button{
     transition: all .3s;
     margin-top: 25px;
 }
-button:hover{
-background: gray;
-color: white;
+button:hover {
+    background: gray;
+    color: white;
 }
-.formulario{
+.formulario {
     position: absolute;
-
     bottom: -25px;
     right: -20px;
-    background:linear-gradient(to left, #e8eaec, #4b88ab, #008793, #00bf72, #a8eb12);
+    background: linear-gradient(to left, #e8eaec, #4b88ab, #008793, #00bf72, #a8eb12);
     color: rgb(4, 4, 4);
     width: 320px;
     padding: 10px 4px 10px 0;
     border-radius: 6px;
     font-size: 13px;
     box-shadow: 10px 10px 40px -14px #000;
-   
+
 }
-.fa-phone{
-   color: #000;
+.fa-phone {
+    color: #000;
 }
-
-
-
-.seccion2{
-background-image: url("/img/nochees.jpg");
+.seccion2 {
+    background-image: url("/img/nochees.jpg");
     background-attachment: fixed;
     background-size: cover;
     max-width: 1640px;
     height: 1000px;
 }
-
-a >.fab{
+a>.fab {
     padding-top: 20px;
     padding-left: 2px;
     color: #177cff;
 }
-
-a >.fa-whatsapp{
+a>.fa-whatsapp {
     color: rgb(20, 182, 20);
 }
-.fa-envelope{
+
+.fa-envelope {
     color: rgb(0, 0, 0);
     margin-left: 5px;
-
 }
-
-.cv1{
-   margin-right: 650px;
+.cv1 {
+    margin-right: 650px;
     color: #e5a00d;
     border-color: #e5a00d;
     font-size: 25px;
     /*background-color: #000;*/
 }
 
-
 /* estilos de boton flotante para ser contactado*/
 
-#whatsapp{
+#whatsapp {
     position: fixed;
     width: 55px;
     height: 55px;
@@ -320,42 +350,38 @@ a >.fa-whatsapp{
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 0px 1px 10px rgb(0, 0, 0,0.3);
+    box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.3);
     z-index: 100;
 }
-#whatsapp:hover{
+#whatsapp:hover {
     text-decoration: none;
     color: #0df053;
     background-color: #fff;
 }
-
-.fa-tiktok{
+.fa-tiktok {
     color: #000;
     text-decoration: none;
 }
 
-
 /*LOS SKILLS*/
 
-.skills{
+.skills {
     background-color: #d4d4d418;
     margin-top: 10%;
     height: 320px;
 }
-.skills > h1{
+.skills>h1 {
     text-align: center;
     margin: 0;
     padding: 0;
     color: #e5a00d;
 }
-.table_skills{
+.table_skills {
     display: flex;
     justify-content: space-evenly;
-
 }
-
-.table_skills > div{
-    background-color: #ffffffb2;
+.table_skills>div {
+    background-color: #ffffff9f;
     color: #00bf72;
     width: 150px;
     height: 210px;
