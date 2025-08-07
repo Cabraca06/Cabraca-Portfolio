@@ -5,7 +5,6 @@ let addingWord = false;
 let wordWrapper = document.getElementById('word'); // Asegúrate de que este 
 let counter = 1;
 
-
 var words = ['','I am Richard Cabraca, a Front End Web Developer ', 'Coder' ,' Richard is a programmer focused on creating interactive pages, which can reveal all the information through which you can offer your services and be contacted.','I have knowledge in HTML, CSS, Js, Bootstrap, GitHub, Jira and others.']
     wordWrapper = document.getElementById('word'),
     wordWrapperContent = wordWrapper.innerHTML,
