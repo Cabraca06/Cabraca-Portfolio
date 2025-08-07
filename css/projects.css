@@ -6,7 +6,7 @@ body{
 
 /**  parte de proyectos **/
 .fondo{
-    background-image: url("/img/neblina.jpg");
+    background-image: url("../img/neblina.jpg");
     background-size: cover;
     background-attachment: fixed;
     width: 1440px;
