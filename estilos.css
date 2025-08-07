@@ -8,7 +8,6 @@ body {
     max-width: 1480px;
 }
 
-
 .seccion1 {
     background-image: url("./img/naturaleza.jpg");
     background-attachment: fixed;
@@ -16,7 +15,6 @@ body {
     width: 1440px;
     height: 820px;
 }
-
 /*
 .foto{
     padding: 0;
@@ -309,7 +307,7 @@ button:hover {
     color: #000;
 }
 .seccion2 {
-    background-image: url("/img/nochees.jpg");
+    background-image: url("./img/nochees.jpg");
     background-attachment: fixed;
     background-size: cover;
     max-width: 1640px;

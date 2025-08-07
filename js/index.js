@@ -18,7 +18,6 @@ name1.style.paddingTop= "10%"; */
 //                         padding-top:50px;
 
 // `;
-
 foto.style.cssText = `
                         padding: 0;
                         margin-left: 550px;
