@@ -114,7 +114,7 @@ body {
     /**  PARTE 2 **/
 
 #focus {
-    background-image: url("/img/noche.jpg");
+    background-image: url("./img/noche.jpg");
     background-size: cover;
     background-attachment: fixed;
     width: 1440px;
@@ -307,7 +307,7 @@ button:hover {
     color: #000;
 }
 .seccion2 {
-    background-image: url("/img/nochees.jpg");
+    background-image: url("./img/nochees.jpg");
     background-attachment: fixed;
     background-size: cover;
     max-width: 1640px;
