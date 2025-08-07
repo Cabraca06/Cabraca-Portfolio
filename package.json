@@ -1,0 +1,17 @@
+{
+  "name": "cabracaportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "prettier":"estilos.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://cabraca06.github.io/CabracaPortfolio"
+}
