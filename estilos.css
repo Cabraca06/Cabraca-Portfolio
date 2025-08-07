@@ -10,7 +10,7 @@ body {
 
 
 .seccion1 {
-    background-image: url("/img/naturaleza.jpg");
+    background-image: url("./img/naturaleza.jpg");
     background-attachment: fixed;
     background-size: cover;
     width: 1440px;
