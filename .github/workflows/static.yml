@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: cabraca06.github.io
-      url:  https://cabraca06.github.io/Cabraca-Portfolio 
+      url: https://cabraca06.github.io/Cabraca-Portfolio
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
