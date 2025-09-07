@@ -5,34 +5,43 @@
 }
 
 /*responsive en la zona del index */
-@media screen and (max-width: 700px ) {
+@media screen and (max-width: 600px ) {
    .seccion1{
-     width: 700px; 
-     height: 800px;
+     width: 600px; 
+     height: 1000px;
      background-size:cover;
      background-repeat: no-repeat;
      position: fixed;
    }
    #nameinitial{
-    font-size: 20px;
-    margin-left: 6%;
+    font-size: 18px;
+    margin-left: 1%;
     gap: 10px;
    }
    #botonnn{
-      margin-left: 30%;
+      margin-left: 25%;
       margin-top: 30px;
    }
    .contenedor-redes{
-      margin-left: 7%;
+     
+      width: 10PX;
+      height: 10PX;
+      margin: 20px 20px;
+      margin-right: 100px;
+      margin-left: 130px;
+   }
+   .fab {
+    width: 10px;
+    height: 10px;
    }
  }
  
 
 
 /*responsive en la zona de Inicio */
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 600px) {
    #focus{
-     width: 510px; 
+     width: 600px; 
      height: 1344px;
      background-size:cover;
      background-repeat: no-repeat;
@@ -43,7 +52,7 @@
  }
 
 
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 600px) {
   .skills{
     margin-top: 340px;
     background-color: rgba(255, 255, 255, 0.087);
