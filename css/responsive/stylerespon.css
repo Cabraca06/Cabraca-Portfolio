@@ -1,6 +1,13 @@
-@media (max-width:700px){
+@media (max-width:600px){
    body{
-      width: 500px;
+      width: 600px;
+   }
+   html{
+    margin: 0;
+    padding: 0;
+   }
+   html{
+    height: auto;
    }
 }
 
@@ -102,8 +109,9 @@
    }
    .fondo{
     width: 600px;
-    height: 3170px;
+    
    }
+   
  }
 
 
