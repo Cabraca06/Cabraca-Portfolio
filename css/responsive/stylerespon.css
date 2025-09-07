@@ -89,7 +89,7 @@
  /*responsive en los proyectos*/
  @media screen and (max-width: 600px) {
    .caja{
-    width: 500px;
+    width: 600px;
     height: 800px;
     font-size:15px ;
    }
