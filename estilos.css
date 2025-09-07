@@ -15,6 +15,15 @@ body {
     width: 1440px;
     height: 820px;
 }
+.badges{
+    font-size: 32px;
+    align-items: center;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: #daa32e;
+    padding: 10px;
+    margin:10px;
+}
 /*
 .foto{
     padding: 0;
@@ -118,7 +127,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     width: 1440px;
-    height: 850px;
+    height: 880px;
     font-size: 30px;
 }
 
