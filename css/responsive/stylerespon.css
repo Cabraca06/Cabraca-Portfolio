@@ -158,7 +158,11 @@
 /* Contacto responsive */
 @media screen and (max-width: 600px ) {
 
-
+  .logos i{
+      width: 50PX;
+      height: 0PX;
+      display: inline-block;
+  }
 
 
 }
