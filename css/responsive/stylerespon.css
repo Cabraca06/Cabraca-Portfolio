@@ -88,7 +88,10 @@
 }
  /*responsive en los proyectos*/
  @media screen and (max-width: 600px) {
-   .caja{
+  body{
+    width: 600px;
+  } 
+  .caja{
     width: 600px;
     height: 800px;
     font-size:15px ;
@@ -97,20 +100,6 @@
     display: grid;
     grid-template-columns: auto;
    }
-
-  
-
-  
-  /* .caja{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content:center;
-       gap: 30px;
-       width: 700px;
-       height: 1400px;
-       padding-top: 20px;
-   } */
    .fondo{
     width: 600px;
     height: 3170px;
