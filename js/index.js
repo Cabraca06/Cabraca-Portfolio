@@ -65,9 +65,13 @@ boton.style.cssText = `
 
 //Funcion para cambiar el color del boton de START
 function cambiarColor(boton) {
-  if (boton.type == "mouseover") boton.currentTarget.style.color = "#00af86";
-  else boton.currentTarget.style.color = "#daa32e";
-}
+  if (boton.type == "mouseover") {
+    boton.currentTarget.style.color = "#00af86";
+    boton.currentTarget.style.color = "#daa32e";
+  }
+} 
+
+
 let lnk = document.getElementById("botonnn");
 lnk.addEventListener("mouseover", cambiarColor);
 lnk.addEventListener("mouseout", cambiarColor);
@@ -80,5 +84,49 @@ function mostrarAlerta(boton) {
   }
 }
 
+//Funcion para abrir facebook
+function abrirFace(facebook="https://www.facebook.com/profile.php?id=100076255117626") {
+  if (confirm("¿Deseas ingresar al facebook?") == true) {
+    window.open(facebook, "_blank");
+  } else{
+    alert("Detener enlace");
+  }
+}
+//funcion para abrir github
+function abrirGith(github= "https://github.com/Cabraca06"){
+  if (confirm("¿Deseas ingresar a github ?") == true){
+    window.open(github, "_blank");
+  } else{
+    alert("Detener enlace");
+  }
+
+}
+
+//Funcion para abrir likedin
+function abrirLink(linkedin="https://www.linkedin.com/in/richard-cabraca-venegas-3868491b3"){
+  if (confirm ("¿Deseas ingresar a Linkedin ?") == true){
+    window.open(linkedin, "_blank");
+  } else{
+    alert ("Detener enlace");
+  }
+}
+
+//Funcion para abrir Tik Tok
+function abrirTikT(tiktok="https://www.tiktok.com/@mr_cabraca_code"){
+  if (confirm ("¿Deseas ingresar a Tik Tok ?") == true){
+    window.open(tiktok, "_blank");
+  } else{
+    alert ("Detener enlace");
+  }
+}
+
+
+
+
+
 let lnk2 = document.getElementById("botonnn");
 lnk2.addEventListener("click", mostrarAlerta);
+
+
+
+
