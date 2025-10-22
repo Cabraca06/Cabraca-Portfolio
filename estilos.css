@@ -12,8 +12,8 @@ body {
     background-image: url("./img/naturaleza.jpg");
     background-attachment: fixed;
     background-size: cover;
-    width: 1440px;
-    height: 820px;
+    width: 100vi;
+    height: 100vh;
 }
 .badges{
     font-size: 32px;
@@ -40,26 +40,31 @@ body {
 */
 
 #nameinitial {
-    color: #ad7c11;
-    position: relative;
-    margin-left: 36%;
-    margin-top: 30px;
+    width: max-content;
+    margin: 20px auto;  
+    color: #000000;
+    background-color: #ffffff9d;
+    border-radius: 5px 5px ;
+    box-shadow: #f3f3f376 10PX 10px 5PX 5px;
+    position: center;
+    text-align: center;
     font-family: "rubik Mono One", sans-serif;
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
 
 }
 
 .contenedor-redes {
-    background-color: rgba(16, 10, 1, 0.254);
+    background-color: rgba(16, 10, 1, 0.506);
     height: 5px;
-    width: 400px;
+    width: 450px;
+    border-radius: 10px 10px ;
     padding: 50px;
     position: relative;
-    margin-left: 36%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    margin: 20px  auto;    
 
 }
 
@@ -77,11 +82,11 @@ body {
     transition: 0.3s ease;
     font-size: 2rem;
     color: #000;
-    background-color: #ffffff08;
+    background-color: #ffffff17;
 }
 
 .contenedor-redes>a:hover {
-    background-color: #f7f3f3ab;
+    background-color: #100c0471 ;
     width: 15px;
     height: 50px;
 
@@ -103,20 +108,24 @@ body {
 }
 
 
-#botonnn {
+#boton-inicio {
     display: flex;
     text-align: center;
-    width: 100px;
-    height: 30px;
-    color: #daa32e;
+    padding: 0px;
+    width: 152px;
+    height: 40px;
+    color: #ffffffb0;
+    border-radius: 5px 5px;
     font-family: "rubik Mono One", sans-serif;
     font-size: 20px;
-    margin-top: 20px;
-    gap: 10px;
-    position: relative;
-    justify-content: center;
+    margin: 20px auto; 
+    display: flex;
     align-items: center;
-    margin-left: 47%;
+    justify-content: center
+}
+.boton:hover{
+    background-color: #e5a10dc0;
+
 }
 
 

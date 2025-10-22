@@ -14,33 +14,36 @@
 /*responsive en la zona del index */
 @media screen and (max-width: 600px ) {
    .seccion1{
-     width: 600px; 
-     height: 1000px;
+     width: 100vi; 
+     height: 100vh;
      background-size:cover;
      background-repeat: no-repeat;
      position: fixed;
    }
    #nameinitial{
-    font-size: 18px;
-    margin-left: 1%;
+    font-size: 13px;
+    margin-left:50% 50%;
     gap: 10px;
    }
-   #botonnn{
-      margin-left: 25%;
+   #boton-inicio{
+      margin-left:50% 50%;
       margin-top: 30px;
    }
    .contenedor-redes{
-     
-      width: 10PX;
-      height: 10PX;
-      margin: 20px 20px;
+      width: 2vi;
+      height: 2vh;
       margin-right: 100px;
-      margin-left: 130px;
-   }
-   .fab {
-    width: 10px;
-    height: 10px;
-   }
+      margin-left: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .contenedor-redes a {
+      font-size: 25px;
+      width: 5px;
+      height: 5px;
+      padding: 25px;
+    }
  }
  
 

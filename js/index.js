@@ -1,7 +1,7 @@
 //var seccion1 = document.querySelector(".seccion1");
 var foto = document.querySelector(".foto");
 // var name1 = document.querySelector(".nameinitial");
-var boton = document.querySelector("#botonnn");
+var boton = document.querySelector("#boton-inicio");
 var boton2 = document.querySelector(".boton");
 
 /*name1.innerHTML = "Richard Cabraca Venegas";
@@ -57,7 +57,7 @@ boton2.style.cssText = `
 `;
 
 boton.style.cssText = `
-        color: #daa32e;
+        color: #ffffffc1;
         text-decoration:none;
         
        
@@ -66,15 +66,13 @@ boton.style.cssText = `
 //Funcion para cambiar el color del boton de START
 function cambiarColor(boton) {
   if (boton.type == "mouseover") {
-    boton.currentTarget.style.color = "#00af86";
-    boton.currentTarget.style.color = "#daa32e";
+   
+    boton.currentTarget.style.color = "#ffffffc1";
   }
 } 
 
 
-let lnk = document.getElementById("botonnn");
-lnk.addEventListener("mouseover", cambiarColor);
-lnk.addEventListener("mouseout", cambiarColor);
+
 
 function mostrarAlerta(boton) {
   if (("click" === boton) === true) {
@@ -124,9 +122,12 @@ function abrirTikT(tiktok="https://www.tiktok.com/@mr_cabraca_code"){
 
 
 
-let lnk2 = document.getElementById("botonnn");
+
+
+let lnk2 = document.getElementById("boton-inicio");
 lnk2.addEventListener("click", mostrarAlerta);
 
-
+let lnk = document.getElementById("boton-inicio");
+lnk.addEventListener("mouseover", cambiarColor);
 
 
