@@ -133,11 +133,13 @@ body {
 
 #focus {
     background-image: url("./img/noche.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    width: 1440px;
-    height: 900px;
+    width: 100vi;
+    height: 120vh;
     font-size: 30px;
+    position: fixed;
 }
 
 /* @media screen and (max-width: 700px) {
@@ -152,8 +154,8 @@ body {
 .quien {
     color: #e5a00d;
     position: relative;
-    margin-left: 565px;
     padding-top: 110px;
+    text-align: center;
 }
 
 /* @media screen and (max-width: 700px) {
@@ -167,7 +169,7 @@ body {
 
 nav {
     text-align: center;
-    max-width: 1500px;
+    width: 100vi;
     height: 80px;
     background-color: #d9d9d965;
 }
@@ -218,6 +220,8 @@ nav ul li a:hover {
     vertical-align: middle;
     position: relative;
     margin-top: 80px;
+    width: 100vi;
+    height: 25vh;
 }
 
 .word:before {
@@ -328,8 +332,9 @@ button:hover {
     background-image: url("./img/nochees.jpg");
     background-attachment: fixed;
     background-size: cover;
-    max-width: 1640px;
-    height: 1000px;
+    width: 100vi; 
+    height: 160vh;
+    position: fixed;
 }
 a>.fab {
     padding-top: 20px;
@@ -383,8 +388,9 @@ a>.fa-whatsapp {
 
 .skills {
     background-color: #d4d4d418;
-    margin-top: 10%;
-    height: 320px;
+    margin-top: 20vh;
+    width: 100vi;
+    height: 25vh;
 }
 .skills>h1 {
     text-align: center;

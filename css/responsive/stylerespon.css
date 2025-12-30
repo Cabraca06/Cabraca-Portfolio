@@ -51,10 +51,13 @@
 /*responsive en la zona de Inicio */
 @media screen and (max-width: 600px) {
    #focus{
-     width: 600px; 
-     height: 1420px;
-     background-size:cover;
-     background-repeat: no-repeat;
+      width: 100vi; 
+      height: 160vh;
+      background-size:cover;
+      background-repeat: no-repeat;
+      position: relative;
+
+   
    }
    .quien{
       margin-left: 20%;
@@ -64,13 +67,15 @@
 
  @media screen and (max-width: 600px) {
   .skills{
-    margin-top: 340px;
     background-color: rgba(255, 255, 255, 0.087);
-    width: auto;
-    height: 540px;
+    width: 100vi; 
+    height: 60vh;
   }
   .skills > h1{
     padding: 5px;
+    width: 50vi; 
+     height: 50vh;
+     
   }
   #table_skills{
     display: grid;
@@ -99,11 +104,12 @@
  /*responsive en los proyectos*/
  @media screen and (max-width: 600px) {
   body{
-    width: 600px;
+    width: 100vi; 
+    height: 100vh;
   } 
   .caja{
-    width: 600px;
-    height: 800px;
+    width: 100vi; 
+    height: 100vh;
     font-size:15px ;
    }
    .caja2{
@@ -111,8 +117,8 @@
     grid-template-columns: auto;
    }
    .fondo{
-    width: 600px;
-    
+    width: 100vi; 
+    height: 238vh;
    }
    
  }
@@ -122,9 +128,9 @@
  @media screen and (max-width: 600px){
 #footer
 {
-    margin-top:2040px;
-    width:600px;
-    height:50px;
+    margin-top:1600px;
+    width: 100vi; 
+    height: 4vh;
     background-color: rgba(175, 175, 175, 0.407);
     color: black; 
 }

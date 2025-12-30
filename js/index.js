@@ -1,7 +1,7 @@
 //var seccion1 = document.querySelector(".seccion1");
 var foto = document.querySelector(".foto");
 // var name1 = document.querySelector(".nameinitial");
-var boton = document.querySelector("#boton-inicio");
+var boton = document.querySelector("#boton-inicio" );
 var boton2 = document.querySelector(".boton");
 
 /*name1.innerHTML = "Richard Cabraca Venegas";
