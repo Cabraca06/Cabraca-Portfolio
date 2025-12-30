@@ -119,11 +119,6 @@ function abrirTikT(tiktok="https://www.tiktok.com/@mr_cabraca_code"){
 }
 
 
-
-
-
-
-
 let lnk2 = document.getElementById("boton-inicio");
 lnk2.addEventListener("click", mostrarAlerta);
 
