@@ -30,7 +30,7 @@
   }
   .fondo{
     width: 100vi; 
-    height: 238vh;
+    height: 410vh;
    }
 
 }
@@ -140,7 +140,7 @@
  @media screen and (max-width: 600px){
 #footer
 {
-    margin-top:1600px;
+    margin-top:2015px;
     width: 100vi; 
     height: 4vh;
     background-color: rgba(175, 175, 175, 0.407);
