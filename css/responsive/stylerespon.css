@@ -1,6 +1,7 @@
 @media (max-width:600px){
    body{
-      width: 600px;
+    width: 100vi; 
+    height: 100vh;
    }
    html{
     margin: 0;
@@ -11,15 +12,33 @@
    }
 }
 
+
+
+@media screen and (max-width: 600px ) {
+  .seccion1{
+    width: 100vi; 
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: fixed;
+  }
+  #focus{
+    width: 100vi; 
+    height: 230vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+  }
+
+}
+
+
+
+
 /*responsive en la zona del index */
 @media screen and (max-width: 600px ) {
-   .seccion1{
-     width: 100vi; 
-     height: 100vh;
-     background-size:cover;
-     background-repeat: no-repeat;
-     position: fixed;
-   }
+   
    #nameinitial{
     font-size: 13px;
     margin-left:50% 50%;
@@ -50,26 +69,20 @@
 
 /*responsive en la zona de Inicio */
 @media screen and (max-width: 600px) {
-   #focus{
-      width: 100vi; 
-      height: 160vh;
-      background-size:cover;
-      background-repeat: no-repeat;
-      position: relative;
-
-   
+  
    }
    .quien{
-      margin-left: 20%;
+      text-align: center;
    }
- }
+ 
 
 
  @media screen and (max-width: 600px) {
   .skills{
     background-color: rgba(255, 255, 255, 0.087);
     width: 100vi; 
-    height: 60vh;
+    height: 92vh;
+    margin-top:350px ;
   }
   .skills > h1{
     padding: 5px;
