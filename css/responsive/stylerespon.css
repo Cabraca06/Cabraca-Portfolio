@@ -6,14 +6,12 @@
    html{
     margin: 0;
     padding: 0;
-   }
-   html{
     height: auto;
    }
 }
 
 
-
+/*responsive en las zonas principales(Los fondos) */
 @media screen and (max-width: 600px ) {
   .seccion1{
     width: 100vi; 
@@ -30,6 +28,10 @@
     position: relative;
 
   }
+  .fondo{
+    width: 100vi; 
+    height: 238vh;
+   }
 
 }
 
@@ -69,7 +71,6 @@
 
 /*responsive en la zona de Inicio */
 @media screen and (max-width: 600px) {
-  
    }
    .quien{
       text-align: center;
@@ -114,6 +115,7 @@
     background-color:#d9d9d965 ;   
   }
 }
+
  /*responsive en los proyectos*/
  @media screen and (max-width: 600px) {
   body{
@@ -129,10 +131,7 @@
     display: grid;
     grid-template-columns: auto;
    }
-   .fondo{
-    width: 100vi; 
-    height: 238vh;
-   }
+   
    
  }
 
